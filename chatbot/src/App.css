@@ -1,0 +1,31 @@
+/* src/App.css */
+.chat-box {
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message.user {
+  background-color: #007bff;
+  color: white;
+  text-align: right;
+}
+
+.message.bot {
+  background-color: #e2e3e5;
+  text-align: left;
+}
+
+.faq-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-buttons .btn {
+  margin-bottom: 10px;
+}
